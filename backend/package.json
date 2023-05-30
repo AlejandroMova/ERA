@@ -4,7 +4,8 @@
       "npm": "7.10.0"
     },
   "scripts": {
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci", 
+    "start": "node server.js",
   },
   "dependencies": {
     "dotenv": "^16.0.3",
