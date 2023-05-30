@@ -1,6 +1,10 @@
 {
+  "engines": {
+    "node": "16.0.0",
+    "npm": "7.10.0"
+  },
   "scripts": {
-    "build": "cd frontend && npm install && npm run build"
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci",
   },
   "dependencies": {
     "dotenv": "^16.0.3",
