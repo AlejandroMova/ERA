@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "cd backend && npm install && npm run build"
+    "build": "cd frontend && npm install && npm run build"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
