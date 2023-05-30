@@ -1,0 +1,45 @@
+.navbar {
+    background-color: $color-primary; 
+    padding: 1.5rem; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap;
+    
+ 
+
+    &__link {
+        font-size: 1.7rem; 
+        text-decoration: none; 
+        color: $color-text; 
+
+        &:hover {
+            transform: scale(1.1) translateY(-0.3rem); 
+            text-decoration: underline; 
+        }
+
+        @include respond(tab-land){
+            font-size: 3rem; 
+            margin: 0.7rem; 
+        }
+
+    }
+
+    &__logo {
+        width: 8rem; 
+    
+        @include respond(tab-land){
+            position: absolute; 
+            top: 20rem; 
+            right: 5rem; 
+            width: 12rem;
+            z-index: 2;  
+        }
+    }
+    
+}
+
+a {
+    text-decoration: none; 
+}
+

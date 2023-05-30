@@ -1,0 +1,52 @@
+.texto {
+    position: relative; 
+    left: 2rem; 
+    top: 1rem; 
+    width: 50%; 
+    height: auto; 
+    max-height: 90%; 
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .2); 
+    
+    @include respond(tab-land){
+        width: 90%; 
+        margin: 0 auto; 
+        left: 0; 
+    }
+}
+
+.background {
+    position: relative; 
+    padding-bottom: 10rem; 
+    overflow: hidden; 
+}
+
+
+.images {
+
+    text-align: center; 
+    position: absolute;  
+    left: 55%; 
+    overflow: hidden; 
+    display: inline-block; 
+    top: 10rem;
+    height: 100%; 
+    width: 40%; 
+    
+    &__image {
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2); 
+        margin: 0.5rem; 
+
+        @include respond(tab-land){
+            width: 80%; 
+        }
+    }
+
+    @include respond(tab-land){
+        position: relative; 
+        left: 10%; 
+        width: 80%; 
+        
+        
+    }
+}
+
