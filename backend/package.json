@@ -4,12 +4,8 @@
       "npm": "7.10.0"
     },
   "scripts": {
-<<<<<<< HEAD
+    "start": "node ./bin/www",
     "build:digitalocean": "npm install --production=false && npm run build && npm ci"
-=======
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci", 
-    "start": "node ./bin/www"
->>>>>>> 314f030635663f91ee68689e9806f3449eedbd0e
   },
   "dependencies": {
     "dotenv": "^16.0.3",
