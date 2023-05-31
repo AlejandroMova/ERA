@@ -1,5 +1,5 @@
 import img1 from '../images/ventaja1.jpg'; 
-import img2 from '../images/ventaja2.jpg'; 
+import img2 from '../images/background2.jpeg'; 
 
 const Ventaja = () => {
     return (
@@ -24,7 +24,6 @@ const Ventaja = () => {
                         su TCO. 
             </div>
             <div className="images">
-                <img className="images__image" src={img1} alt="Imágen Ventaja" />
                 <img className="images__image" src={img2} alt="Imágen Ventaja" />
             </div>
         </div>
