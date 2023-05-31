@@ -1,11 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d181a38f.css",
-    "main.js": "/static/js/main.1d576c9b.js",
-    "static/media/products3.jpg": "/static/media/products3.fbb09969e96482cebb44.jpg",
+    "main.js": "/static/js/main.8b14d02c.js",
     "static/media/products2.jpg": "/static/media/products2.20e6ee8721009e485575.jpg",
     "static/media/ventaja1.jpg": "/static/media/ventaja1.5a7f4abcd8ebb7e51426.jpg",
-    "static/media/ventaja2.jpg": "/static/media/ventaja2.1ebb75e3ca4e2e80f0be.jpg",
     "static/media/clientes1.jpg": "/static/media/clientes1.063a0557164745f1ba65.jpg",
     "static/media/products1.jpg": "/static/media/products1.8d7c513d4981304ad5dd.jpg",
     "static/media/materiales4.jpeg": "/static/media/materiales4.c5f7434432f92ae7086f.jpeg",
@@ -17,10 +15,10 @@
     "static/media/era_logo.png": "/static/media/era_logo.10100374b57010c0d441.png",
     "index.html": "/index.html",
     "main.d181a38f.css.map": "/static/css/main.d181a38f.css.map",
-    "main.1d576c9b.js.map": "/static/js/main.1d576c9b.js.map"
+    "main.8b14d02c.js.map": "/static/js/main.8b14d02c.js.map"
   },
   "entrypoints": [
     "static/css/main.d181a38f.css",
-    "static/js/main.1d576c9b.js"
+    "static/js/main.8b14d02c.js"
   ]
 }
